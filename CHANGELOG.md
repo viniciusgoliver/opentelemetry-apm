@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/viniciusgoliver/opentelemetry-apm/compare/v1.3.0...v1.4.0) (2023-10-03)
+
+
+### Features
+
+* adjust path .env ([2984520](https://github.com/viniciusgoliver/opentelemetry-apm/commit/2984520297b986a94fef5fecfa226b41b8f10115))
+
 ## [1.3.0](https://github.com/viniciusgoliver/opentelemetry-apm/compare/v1.2.0...v1.3.0) (2023-10-03)
 
 

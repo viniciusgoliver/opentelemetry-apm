@@ -1,10 +1,8 @@
 const apm = require("elastic-apm-node");
 const otel = require("@opentelemetry/api");
 require("dotenv").config({
-  path: "../../.env",
+  path: ".env",
 });
-
-console.log(process.env);
 
 apm.start({
   serverUrl: process.env.APM_SERVER_URL,

@@ -1,8 +1,10 @@
 const apm = require("elastic-apm-node");
 const otel = require("@opentelemetry/api");
 require("dotenv").config({
-  path: "../.env",
+  path: "../../.env",
 });
+
+console.log(process.env);
 
 apm.start({
   serverUrl: process.env.APM_SERVER_URL,
@@ -18,7 +20,7 @@ const OpenTelemetryMiddleware = (req, res, next) => {
     description: "number of HTTP requests",
   });
 
-  const span = tracer.startSpan("adapter-opentelemetry");
+  const span = tracer.startSpan(process.env.TRACER_SPAN_NAME);
 
   next();
 

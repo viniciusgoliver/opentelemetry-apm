@@ -1,5 +1,15 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## 1.1.0 (2023-10-03)
+
+
+### Features
+
+* alter name execute ([ce6a255](https://github.com/viniciusgoliver/opentelemetry-apm/commit/ce6a2551d0a177496271a0e4a8b763ad9f6552f5))
+* initial commit ([756195e](https://github.com/viniciusgoliver/opentelemetry-apm/commit/756195e791a9be94c34ce2d0752f6b765bcb9e42))
+
 ## [1.0.0] - 2023-09-13
 
 - Primeira versão lançada.
